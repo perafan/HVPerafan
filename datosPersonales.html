@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Hoja de Vida</title>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Lenguajes de Ultima Generacion</a>       
+                <ul class="nav justify-content-end">                    
+                    <li class="nav-item">
+                      <a class="navbar-brand"  href="datosPersonales.html">Datos Personales</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="navbar-brand"  href="pasatiempo.html">Pasatiempos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand"  href="estudios.html">Estudios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand"  href="contacto.html">Contacto</a>
+                    </li>
+                  </ul>              
+            </div>
+          </nav>
+    </div>
+    <div class="container-fluid">
+        <section><!--cuerpo de la pagina -->            
+          <div class="row pt-4"><!-- 4 Filas -->          
+              <div class="col-12"> <!-- ancho de Columna general-->   
+                <div class="row"> <!-- fila1--> 
+                    <div class="col">
+                        <blockquote class="blockquote ">
+                          <h1 class="centrarT">Hoja de Vida</h1>
+                        </blockquote>
+                      </div>      
+                </div>
+                <div class="row "> <!-- fila2--> 
+                    <div class="col centrarImg">
+                        <img style="width: 6rem;" src="assets/images/apb.jpeg" class="card-img-top rounded-circle " alt="fotografia">
+                    </div>        
+                </div>
+                <div class="row" ><!-- fila 3-->                      
+                    <div class="col centrar" display:inline-block> <!-- Columna 1 --> 
+                        <p>DATOS PERSONALES</p>                  
+                        <input class="input" type="text" placeholder="Arley Perafan" readonly><br>                
+                        <input class="input" type="text" placeholder="1 noviembre - 1995" readonly> <br>
+                        <input class="input" type="text" placeholder="1076334745" readonly> <br>
+                        <input class="input" type="text" placeholder="apera11@gmail.com" readonly>
+                      </div>
+                </div>                
+            </div><!-- fin de Columnas-->  
+          </div><!-- fin de filas-->  
+        </section>
+        <section>
+          <div class="encabezado">
+            <textarea class="text-area" placeholder="Descrpcion de perfil" readonly></textarea>
+        </div> <br> 
+        </section>
+        <!-- Footer -->
+          <footer >
+            <p class="par">Sigueme en:</p>
+            <div class="redsocial">
+                <ul>
+                 <li><a href="https://es-la.facebook.com" target="_blank" class="facebook"><i class="fab fa-facebook"></i></a></li> 
+                 <li><a href="https://www.instagram.com/?hl=es" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                 <li><a href="https://twitter.com/?lang=es" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+          </footer>
+      </div> 
+</body>
+</html>
